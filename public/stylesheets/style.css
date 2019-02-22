@@ -1,0 +1,38 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#panel {
+	width: 100%;
+	text-align: center;
+}
+
+.text {
+	font-size: 150px;
+	color: #888;
+	display: inline-block;
+//	float: left;
+}
+
+.box {
+	width: 200px;
+	height: 100px;
+	margin: auto 50px;
+//	float: left;
+	display: inline-block;
+//	border: 5px solid #ddd;
+}
+
+.green {
+	background-color: #0f0;	
+}
+
+.red {
+	background-color: #f00;	
+}
