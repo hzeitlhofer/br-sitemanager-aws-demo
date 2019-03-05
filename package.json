@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "local": "node server.js",
-    "start": "docker-compose up --force-recreate"
+    "start": "node server.js",
+    "docker": "docker-compose up --force-recreate"
   },
   "author": "",
   "license": "ISC",
