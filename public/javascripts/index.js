@@ -120,7 +120,8 @@ $(document).ready(function () {
     console.log('Successfully connect WebSocket', ws);
   }
   ws.onmessage = function (message) {
-    var data = message.data.substring(0, message.data.length - 1);
+//    console.log(message.data);
+    var data = message.data; //.substring(0, message.data.length - 1);
     try {
       var obj = JSON.parse(data);
       var switchPos = 0;
